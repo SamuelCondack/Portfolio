@@ -1,3 +1,20 @@
 .aboutContainer{
     height: 100vh;
+    display: flex;
+    padding-top: 12rem;
+    justify-content: center;
+
+}
+.aboutTitle{
+    text-transform: uppercase;
+    display: block;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 3.5rem;
+    position: relative;
+    color: #111;
+    user-select: none;
+    text-decoration: underline  rgb(112, 46, 255);
+    text-underline-offset: 20px;
 }

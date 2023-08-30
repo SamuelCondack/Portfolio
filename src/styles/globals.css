@@ -13,6 +13,16 @@ html{
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 10px;
+}
+
 @media only screen and (min-width: 112.5em){
     html{
         font-size: 65%;

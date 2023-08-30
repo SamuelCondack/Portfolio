@@ -22,6 +22,7 @@ export default function Header(){
         <header>
          <a href="#" className={styles.iconLink}>
              <div className={styles.icon}>
+                <img src="" alt="" style={{display: "none"}}/>
              </div>
          </a>
          <div onClick={toggleDisplay}className={styles.menu}>
