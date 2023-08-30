@@ -7,3 +7,14 @@
     font-family: inherit;
     font-family: 'Poppins', sans-serif;
 }
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+@media only screen and (min-width: 112.5em){
+    html{
+        font-size: 65%;
+    }
+}

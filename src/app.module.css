@@ -1,22 +1,17 @@
 .introduction {
-    min-height: 80rem;
-    max-height: 120rem;
     position: relative;
     height: 100vh;
-    background-color: #fff;
+    /* min-height: 80rem;
+    max-height: 120rem; */
     background-image: url("./images/Smoke.png");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .home {
     position: absolute;
-    top: 40%;
+    top: 60%;
+    /* top: 40%; */
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 90rem;
@@ -75,6 +70,9 @@
 .arrow {
     user-select: none;
     pointer-events: none;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -95,6 +93,9 @@
 }
 
 @media only screen and (max-width: 675px) {
+    .introduction{
+        height: 80vh;
+    }
     .title {
         font-size: 3rem;
     }

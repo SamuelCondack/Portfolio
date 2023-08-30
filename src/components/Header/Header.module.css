@@ -1,9 +1,13 @@
 header {
     display: flex;
     flex-direction: row;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(251, 251, 253, .8);
+    background-color: #fff;
+    box-shadow: 0 10px 100px rgba(0,0,0,.1);
 }
 .iconLink{
     height: 50px;
@@ -14,10 +18,11 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    padding: 2.2rem 3rem;
+    padding: 0 3rem;
     transition: ease 1s  all;
     background-blend-mode: multiply;
     height: 50px;
+    background-position: center;
 }
 .icon:hover{
     background-image: url("../../images/Scolor.png");
@@ -25,6 +30,7 @@ header {
 }
 .menu{
     display: none;
+    margin-right: 20px;
 }
 .menu:hover{
     cursor: pointer;
@@ -38,12 +44,14 @@ header {
     width: 100%;
     top: 50px;
     text-align: end;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);
 }
 .mobileMenu > li{
     padding: 20px 0px;
     position: relative;
-    right: 20px;
     text-transform: uppercase;
+    border-top: 1px solid #eee;
+
 }
 .menuLinks{
     text-decoration: none;
@@ -51,6 +59,8 @@ header {
     font-weight: 700;
     font-size: 16px;
     transition: color .3s;
+    padding: 20px 40px 20px 80px;
+
 }
 .menuLinks:hover{
     color: rgb(112, 46, 255);
@@ -91,7 +101,7 @@ li{
     letter-spacing: 1px;
     font-weight: 700;
     color: #333;
-    font-size: 20px;
+    font-size: 1.6rem;
     padding: 2.2rem 3rem;
     text-decoration: none;
     transition: color .3s;
@@ -117,7 +127,13 @@ li{
         font-size: 1rem
     }
 }
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 900px){
+    .headerLinks{
+        padding: 3rem 1.8rem;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 600px){
     .menu{
         display: flex;
     }

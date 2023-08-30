@@ -1,6 +1,7 @@
 import styles from "./app.module.css"
 import Header from "./components/Header/Header"
 import arrow from "./images/arrow.gif"
+import About from "./Pages/About/About"
  
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <img style={{pointerEvents: "none"}} className={styles.arrow} src={arrow} alt="arrow down gif"/>
           </div>
       </div>
+      <About />
     </>
   )
 }
