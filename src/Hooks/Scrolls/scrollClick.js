@@ -1,4 +1,4 @@
-import toggleDisplay from "./toggleDisplay"
+import checkMenu from "./checkMenu"
 
 function scrollHomeIcon(){
     const home = document.getElementById("home")
@@ -7,14 +7,20 @@ function scrollHomeIcon(){
 
 function scrollHome(){
     const home = document.getElementById("home")
-    toggleDisplay()
+    checkMenu()
     home.scrollIntoView({behavior: "smooth"})
 }
 
 function scrollAbout(){
     const about = document.getElementById("about")
-    toggleDisplay()
+    checkMenu()
     about.scrollIntoView({behavior: "smooth"})
 }
 
-export {scrollAbout, scrollHome, scrollHomeIcon}
+function scrollProjects(){
+    const projects = document.getElementById("projects")
+    checkMenu()
+    projects.scrollIntoView({behavior: "smooth"})
+}
+
+export {scrollAbout, scrollHome, scrollHomeIcon, scrollProjects}
