@@ -94,17 +94,17 @@
 
 @media only screen and (max-width: 675px) {
     .introduction{
-        height: 80vh;
+        height: 70vh;
     }
-    .title {
-        font-size: 3rem;
+}
+@media only screen and (max-width: 37.5em) {
+    .title{
+        font-size: 4.5rem;
     }
-
     .nameTitle {
-        font-size: 3rem;
+        font-size: 3.8rem;
     }
-
-    .subTitle {
-        font-size: 1.5rem;
+    .subTitle{
+        font-size: 2rem;
     }
 }

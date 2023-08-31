@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className={styles.introduction}>
+      <div id="home" className={styles.introduction}>
           <div className={styles.home}>
             <h1 className={styles.title}>
               HEY, I'M
