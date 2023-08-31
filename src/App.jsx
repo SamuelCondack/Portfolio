@@ -1,7 +1,8 @@
 import styles from "./app.module.css"
-import Header from "./components/Header/Header"
-import arrow from "./images/arrow.gif"
+import Header from "./Components/Header/Header"
+import arrow from "./Images/arrow.gif"
 import About from "./Pages/About/About"
+import Projects from "./Pages/Projects/Projects"
  
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           </div>
       </div>
       <About />
+      <Projects />
     </>
   )
 }

@@ -18,7 +18,7 @@ export default function About() {
                     </div>
                         <div className={styles.aboutContentSkills}>
                             <h3 className={styles.aboutContentTitle}>My Skills</h3>
-                                            <div className={styles.skills}>
+                            <div className={styles.skills}>
                                 <div className={styles.skill}>HTML</div>
                                 <div className={styles.skill}>CSS</div>
                                 <div className={styles.skill}>JavaScript</div>
@@ -27,7 +27,7 @@ export default function About() {
                                 <div className={styles.skill}>GIT</div>
                                 <div className={styles.skill}>Github</div>
                                 <div className={styles.skill}>Terminal</div>
-                                            </div>
+                            </div>
                         </div>
                 </div>
             </div>

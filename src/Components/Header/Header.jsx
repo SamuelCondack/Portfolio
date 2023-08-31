@@ -1,8 +1,8 @@
 import styles from './Header.module.css'
-import menu from '../../images/ham-menu.svg'
-import closeMenu from '../../images/ham-menu-close.svg'
-import { scrollAbout, scrollHome, scrollHomeIcon } from '../../hooks/scrollClick'
-import toggleDisplay from '../../hooks/toggleDisplay'
+import menu from '../../Images/ham-menu.svg'
+import closeMenu from '../../Images/ham-menu-close.svg'
+import { scrollAbout, scrollHome, scrollHomeIcon } from '../../Hooks/scrollClick'
+import toggleDisplay from '../../Hooks/toggleDisplay'
 
 export default function Header(){
     return(

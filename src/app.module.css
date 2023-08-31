@@ -1,9 +1,7 @@
 .introduction {
     position: relative;
     height: 100vh;
-    /* min-height: 80rem;
-    max-height: 120rem; */
-    background-image: url("./images/Smoke.png");
+    background-image: url("./Images/Smoke.png");
     background-size: cover;
     background-position: center;
 }
@@ -11,7 +9,6 @@
 .home {
     position: absolute;
     top: 60%;
-    /* top: 40%; */
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 90rem;

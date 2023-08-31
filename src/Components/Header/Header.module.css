@@ -17,7 +17,7 @@ header {
     cursor: pointer;
 }
 .icon{
-    background-image: url("../../images/S.png");
+    background-image: url("../../Images/S.png");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -28,7 +28,7 @@ header {
     background-position: center;
 }
 .icon:hover{
-    background-image: url("../../images/Scolor.png");
+    background-image: url("../../Images/Scolor.png");
     background-size: 90%;
 }
 .menu{
@@ -78,7 +78,7 @@ li{
 
 }
 .homeIcon{
-    background-image: url("../../images/HomeBlack.png");
+    background-image: url("../../Images/HomeBlack.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 50px;
@@ -87,7 +87,7 @@ li{
     transition: background-image .3s;
 }
 .homeIcon:hover{
-    background-image: url("../../images/HomeColor.png");
+    background-image: url("../../Images/HomeColor.png");
 }
 .headerUl {
     list-style-type: none;
