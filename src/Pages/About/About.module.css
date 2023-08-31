@@ -47,16 +47,10 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 10rem;
 }
-.aboutContentContainer{
-
-}
 .aboutContentTitle{
     font-weight: 700;
     font-size: 2.8rem;
     margin-bottom: 3rem;
-}
-.aboutContentTexts{
-
 }
 .aboutContentParagraphs{
     font-size: 1.8rem;
@@ -70,9 +64,6 @@
     font-weight: 700;
     color: #7843e9;
     margin: 0 3px;
-}
-.aboutContentSkill{
-
 }
 .skills{
     display: flex;
