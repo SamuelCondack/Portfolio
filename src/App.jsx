@@ -3,6 +3,7 @@ import Header from "./Components/Header/Header"
 import arrow from "./Images/arrow.gif"
 import About from "./Pages/About/About"
 import Projects from "./Pages/Projects/Projects"
+import Contact from "./Pages/Contact/Contact"
  
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       </div>
       <About />
       <Projects />
+      <Contact />
     </>
   )
 }
