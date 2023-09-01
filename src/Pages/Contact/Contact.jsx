@@ -17,7 +17,6 @@ export default function Contact(){
                     <a href="https://www.linkedin.com/in/samuelcondack/" target='_blank' className={styles.socialLink}><img className={styles.socialImages} src={GitHub} alt="GitHub Link" /></a>
                     <a className={styles.socialLink} onClick={EmailClick}><img className={styles.socialImages} src={Email} alt="Email address" /></a>
                 </div>
-                {/* style={{visibility: "hidden", opacity: "0"}} */}
                     <div id='copiedAlert'  className={styles.copiedContainer} style={{visibility: "hidden", opacity: "0"}}>
                         <div className={styles.copiedAlert}>
                             <p className={styles.copiedText}>Email Copied!</p>
