@@ -10,7 +10,7 @@ export default function Contact(){
             <div className={styles.mainContainer}>
                 <h2 className={styles.heading}>
                     <span className={styles.headingTitle}>Contact</span>
-                    <span className={styles.headingSubtitle}>You can contact me in any of those social below. I will be returning as soon as possible</span>
+                    <span className={styles.headingSubtitle}>You can contact me in any of those social below. I will be contacting you back as soon as possible</span>
                 </h2>
                 <div className={styles.social}>
                     <a href="https://github.com/SamuelCondack" target='_blank' className={styles.socialLink}><img className={styles.socialImages} src={LinkedIn} alt="Linkedin link" /></a>

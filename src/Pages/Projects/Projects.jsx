@@ -7,7 +7,7 @@ export default function Projects(){
             <div className={styles.main}>
                 <h2 className={styles.heading}>
                     <span className={styles.headingTitle}>Projects</span>
-                    <span className={styles.headingDescription}>There is some of the projects that I created</span>
+                    <span className={styles.headingDescription}>Here you will find some of the projects that I created</span>
                 </h2>
                 <div className={styles.projectsContent}>
                     <div className={styles.projectsRow}>

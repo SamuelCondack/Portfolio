@@ -5,7 +5,7 @@ export default function About() {
         <div id="about" className={styles.aboutContainer}>
             <div className={styles.main}>
                 <h2 className={styles.aboutTitle}>About me</h2>
-                <p className={styles.aboutSubtitle}>There is more information about me and my current programming skills</p>
+                <p className={styles.aboutSubtitle}>Here you can see more information about me and my current programming skills</p>
                 <div className={styles.aboutContent}>
                     <div className={styles.aboutContentContainer}>
                         <h3 className={styles.aboutContentTitle}>A Little About Me</h3>
