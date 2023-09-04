@@ -23,4 +23,10 @@ function scrollProjects(){
     projects.scrollIntoView({behavior: "smooth"})
 }
 
-export {scrollAbout, scrollHome, scrollHomeIcon, scrollProjects}
+function scrollContact(){
+    const contact = document.getElementById("contact")
+    checkMenu()
+    contact.scrollIntoView({behavior: "smooth"})
+}
+
+export {scrollAbout, scrollHome, scrollHomeIcon, scrollProjects, scrollContact}
