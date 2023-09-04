@@ -4,6 +4,7 @@ import arrow from "./Images/arrow.gif"
 import About from "./Pages/About/About"
 import Projects from "./Pages/Projects/Projects"
 import Contact from "./Pages/Contact/Contact"
+import Footer from "./Components/Footer/Footer"
  
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </>
   )
 }
