@@ -13,8 +13,8 @@ export default function Contact(){
                     <span className={styles.headingSubtitle}>You can contact me in any of those social below. I will be contacting you back as soon as possible</span>
                 </h2>
                 <div className={styles.social}>
-                    <a href="https://github.com/SamuelCondack" target='_blank' className={styles.socialLink}><img className={styles.socialImages} src={LinkedIn} alt="Linkedin link" /></a>
-                    <a href="https://www.linkedin.com/in/samuelcondack/" target='_blank' className={styles.socialLink}><img className={styles.socialImages} src={GitHub} alt="GitHub Link" /></a>
+                    <a href="https://www.linkedin.com/in/samuelcondack/" target='_blank' className={styles.socialLink}><img className={styles.socialImages} src={LinkedIn} alt="Linkedin link" /></a>
+                    <a href="https://github.com/SamuelCondack" target='_blank' className={styles.socialLink}><img className={styles.socialImages} src={GitHub} alt="GitHub Link" /></a>
                     <a className={styles.socialLink} onClick={EmailClick}><img className={styles.socialImages} src={Email} alt="Email address" /></a>
                 </div>
                     <div id='copiedAlert'  className={styles.copiedContainer} style={{visibility: "hidden", opacity: "0"}}>
