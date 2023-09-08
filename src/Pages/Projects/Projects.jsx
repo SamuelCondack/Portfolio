@@ -38,7 +38,7 @@ export default function Projects(){
                         </div>
                         <div className={styles.projectsRowContent}>
                             <h3 className={styles.projectsRowContentTitle}>LogIn & SignUp</h3>
-                            <p className={styles.projectsRowContentDescription}>A page with the system to create and log into an account. It has all the password and e-mail verification done with REGEX</p>
+                            <p className={styles.projectsRowContentDescription}>A page with the system to create and log in accounts. It has all the password and e-mail verification done with REGEX</p>
                             <div className={styles.skills}>
                                 <div className={styles.skill}>HTML</div>
                                 <div className={styles.skill}>CSS</div>
