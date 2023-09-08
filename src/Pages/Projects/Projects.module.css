@@ -54,6 +54,8 @@
     display: block;
     -o-object-fit: cover;
     object-fit: cover;
+    user-select: none;
+    pointer-events: none;
 }
 .projectsRowContent{
     padding: 2rem 0;
@@ -89,6 +91,13 @@
     font-weight: 600;
     color: #666;
 }
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 .projectsButton{
     background: #7843e9;
     color: #fff;
@@ -102,6 +111,23 @@
     box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
     transition: transform .3s;
     text-decoration: none;
+}
+.gitHubButton{
+    background: #7d7d7d;
+    color: #fff;
+    padding: 1.5rem 5rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    transition: transform .3s;
+    text-decoration: none;
+}
+.gitHubButton:hover{
+    transform: translateY(-3px);
 }
 .projectsButton:hover{
     transform: translateY(-3px);
@@ -118,5 +144,31 @@
     }
     .skills{
         justify-content: center;
+    }
+    .buttons{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .projectsButton{
+        padding: 1.5rem 5rem !important;
+    }
+    .gitHubButton{
+        padding: 1.5rem 5rem !important;
+    }
+}
+@media screen and (max-width: 1131px) {
+    .projectsButton{
+        padding: 1.5rem 4rem;
+    }
+    .gitHubButton{
+        padding: 1.5rem 4rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .projectsButton{
+        padding: 1.5rem 2rem;
+    }
+    .gitHubButton{
+        padding: 1.5rem 2rem;
     }
 }
