@@ -19,7 +19,7 @@ function App() {
               </p>
               </h1>
             <p className={styles.subTitle}>
-              A Front-end developer building web solutions<br>
+              A Developer turning problems into solutions<br>
               </br>Passionate about technology and the development world
             </p>
             <img style={{pointerEvents: "none"}} className={styles.arrow} src={arrow} alt="arrow down gif"/>
