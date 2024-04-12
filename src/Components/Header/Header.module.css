@@ -9,6 +9,10 @@ header {
     background-color: #fff;
     box-shadow: 0 10px 100px rgba(0,0,0,.1);
 }
+.preloadImage{
+    background-image: url("../../Images/Scolor.png");
+    display: none;
+}
 .iconLink{
     height: 50px;
     margin-left: 48px;

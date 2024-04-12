@@ -7,6 +7,7 @@ import toggleDisplay from '../../Hooks/toggleDisplay'
 export default function Header() {
     return (
         <header>
+            <div className={styles.preloadImage}></div>
             <a onClick={scrollHomeIcon} className={styles.iconLink} >
                 <div className={styles.icon}>
                     <img src="" alt="SAM Icon" style={{ display: "none" }} />
