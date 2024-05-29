@@ -74,24 +74,78 @@ export default function About() {
               >
                 CSS
               </div>
-              <div className={styles.skill} data-aos="zoom-out-up"
-        data-aos-easing="ease"
-        data-aos-duration="1800">JavaScript</div>
-              <div className={styles.skill} data-aos="zoom-out-up"
-        data-aos-easing="ease"
-        data-aos-duration="1900">React</div>
-              <div className={styles.skill} data-aos="zoom-out-up"
-        data-aos-easing="ease"
-        data-aos-duration="2000">SASS</div>
-              <div className={styles.skill} data-aos="zoom-out-up"
-        data-aos-easing="ease"
-        data-aos-duration="2100">GIT</div>
-              <div className={styles.skill} data-aos="zoom-out-up"
-        data-aos-easing="ease"
-        data-aos-duration="2200">Github</div>
-              <div className={styles.skill} data-aos="zoom-out-up"
-        data-aos-easing="ease"
-        data-aos-duration="2300">Terminal</div>
+              <div
+                className={styles.skill}
+                data-aos="zoom-out-up"
+                data-aos-easing="ease"
+                data-aos-duration="1800"
+              >
+                JavaScript
+              </div>
+              <div
+                className={styles.skill}
+                data-aos="zoom-out-up"
+                data-aos-easing="ease"
+                data-aos-duration="1900"
+              >
+                React
+              </div>
+              <div
+                className={styles.skill}
+                data-aos="zoom-out-up"
+                data-aos-easing="ease"
+                data-aos-duration="2000"
+              >
+                SASS
+              </div>
+              <div
+                className={styles.skill}
+                data-aos="zoom-out-up"
+                data-aos-easing="ease"
+                data-aos-duration="2100"
+              >
+                GIT
+              </div>
+              <div
+                className={styles.skill}
+                data-aos="zoom-out-up"
+                data-aos-easing="ease"
+                data-aos-duration="2200"
+              >
+                Github
+              </div>
+              <div
+                className={styles.skill}
+                data-aos="zoom-out-up"
+                data-aos-easing="ease"
+                data-aos-duration="2300"
+              >
+                NodeJS
+              </div>
+              <div
+                className={styles.skill}
+                data-aos="zoom-out-up"
+                data-aos-easing="ease"
+                data-aos-duration="2400"
+              >
+                NPM
+              </div>
+              <div
+                className={styles.skill}
+                data-aos="zoom-out-up"
+                data-aos-easing="ease"
+                data-aos-duration="2500"
+              >
+                Express
+              </div>
+              <div
+                className={styles.skill}
+                data-aos="zoom-out-up"
+                data-aos-easing="ease"
+                data-aos-duration="2600"
+              >
+                Terminal
+              </div>
             </div>
           </div>
         </div>
