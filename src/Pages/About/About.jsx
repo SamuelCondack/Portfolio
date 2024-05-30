@@ -70,7 +70,7 @@ export default function About() {
                 className={styles.skill}
                 data-aos="zoom-out-up"
                 data-aos-easing="ease"
-                data-aos-duration="1700"
+                data-aos-duration="1800"
               >
                 CSS
               </div>
@@ -78,7 +78,7 @@ export default function About() {
                 className={styles.skill}
                 data-aos="zoom-out-up"
                 data-aos-easing="ease"
-                data-aos-duration="1800"
+                data-aos-duration="2000"
               >
                 JavaScript
               </div>
@@ -86,7 +86,7 @@ export default function About() {
                 className={styles.skill}
                 data-aos="zoom-out-up"
                 data-aos-easing="ease"
-                data-aos-duration="1900"
+                data-aos-duration="2200"
               >
                 React
               </div>
@@ -94,7 +94,7 @@ export default function About() {
                 className={styles.skill}
                 data-aos="zoom-out-up"
                 data-aos-easing="ease"
-                data-aos-duration="2000"
+                data-aos-duration="2400"
               >
                 SASS
               </div>
@@ -102,7 +102,7 @@ export default function About() {
                 className={styles.skill}
                 data-aos="zoom-out-up"
                 data-aos-easing="ease"
-                data-aos-duration="2100"
+                data-aos-duration="2600"
               >
                 GIT
               </div>
@@ -110,7 +110,7 @@ export default function About() {
                 className={styles.skill}
                 data-aos="zoom-out-up"
                 data-aos-easing="ease"
-                data-aos-duration="2200"
+                data-aos-duration="2800"
               >
                 Github
               </div>
@@ -118,7 +118,7 @@ export default function About() {
                 className={styles.skill}
                 data-aos="zoom-out-up"
                 data-aos-easing="ease"
-                data-aos-duration="2300"
+                data-aos-duration="3000"
               >
                 NodeJS
               </div>
@@ -126,23 +126,21 @@ export default function About() {
                 className={styles.skill}
                 data-aos="zoom-out-up"
                 data-aos-easing="ease"
-                data-aos-duration="2400"
+                data-aos-duration="3000"
               >
                 NPM
               </div>
               <div
                 className={styles.skill}
                 data-aos="zoom-out-up"
-                data-aos-easing="ease"
-                data-aos-duration="2500"
+                data-aos-duration="3000"
               >
                 Express
               </div>
               <div
                 className={styles.skill}
                 data-aos="zoom-out-up"
-                data-aos-easing="ease"
-                data-aos-duration="2600"
+                data-aos-duration="3000"
               >
                 Terminal
               </div>

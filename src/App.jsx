@@ -26,14 +26,12 @@ function App() {
             HEY, I'M
             <p className={styles.nameTitle}
             data-aos="fade-up"
-            data-aos-easing="ease"
             data-aos-delay="1000"
             >SAMUEL CONDACK</p>
           </h1>
           <p className={styles.subTitle}
           data-aos="fade-up"
-          data-aos-easing="ease"
-          data-aos-delay="1200"
+          data-aos-delay="1400"
           >
             A Developer turning problems into solutions<br></br>Passionate about
             technology and the development world
