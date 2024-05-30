@@ -44,7 +44,7 @@ export default function Projects() {
               </div>
               <div className={styles.buttons} data-aos="flip-up"
         data-aos-easing="ease"
-        data-aos-duration="1600">
+        data-aos-duration="1000">
                 <a
                   className={styles.projectsButton}
                   href="https://itsmywallet.netlify.app/"
@@ -86,7 +86,7 @@ export default function Projects() {
               </div>
               <div className={styles.buttons} data-aos="flip-up"
         data-aos-easing="ease"
-        data-aos-duration="1600">
+        data-aos-duration="1000">
                 <a
                   className={styles.projectsButton}
                   href="https://sam-login-signup.netlify.app/"
@@ -128,7 +128,7 @@ export default function Projects() {
               </div>
               <div className={styles.buttons} data-aos="flip-up"
         data-aos-easing="ease"
-        data-aos-duration="1600">
+        data-aos-duration="1000">
                 <a
                   className={styles.projectsButton}
                   href="https://samuelcondack.netlify.app/"
